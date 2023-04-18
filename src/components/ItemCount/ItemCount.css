@@ -1,0 +1,46 @@
+.botonAumentar{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botonDisminuir{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botonAgregar{
+    background: #006aa6;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botonAgregar:hover {
+    transition: .2s all cubic-bezier(.8,0,.17,1);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.3);
+    background-color: #00b0d3;
+  }
+
+
+.contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.divContador{
+    border: solid 1px black;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 2px;
+}
