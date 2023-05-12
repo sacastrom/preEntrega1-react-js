@@ -1,4 +1,4 @@
-const products = [
+/* const products = [
     {
         id: "7798253182515",
         img: "../images/palitosPanceta.jpg",
@@ -299,7 +299,7 @@ const products = [
         "categoria": "bebidas",
         "description": "El té con leche es una bebida popular en muchas partes del mundo, especialmente en Asia y el Reino Unido. La versión de Lipton combina té negro con leche para crear una bebida cremosa y suave, que se disfruta fría."
     }
-]
+] */
 
 export const getProductos = () => {
     return new Promise((resolve) => {

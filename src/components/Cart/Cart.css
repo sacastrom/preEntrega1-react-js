@@ -1,0 +1,55 @@
+.botones-carrito{
+    background: #006aa6;
+    border: none;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.total-carrito{
+    font-size: 25px;
+}
+/* .botonFinalizar:hover {
+    transition: .2s all cubic-bezier(.8,0,.17,1);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.3);
+    background-color: #00b0d3;
+  } */
+
+.list-carrito{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+
+
+/* .carrito{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: none;
+} */
+
+.bottom-carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-cart-empty{
+    font-size: 20px;
+}

@@ -33,9 +33,9 @@ const NavBar = () => {
           </li>
         </ul>
         <div className="navbar-session">
-          <a className="navbar-session-button" href="">
+          {/* <a className="navbar-session-button" href="#">
             Iniciar Sesión
-          </a>
+          </a> */}
           <CartWidget />
         </div>
       </nav>
