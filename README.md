@@ -16,13 +16,13 @@ Web App - Ecommerce: https://umami-shop.netlify.app/
 
 Para instalar y configurar el proyecto en tu computadora, sigue estos pasos:
 
-1. Clona el repositorio en tu computadora.
+1. Clona el repositorio en tu computadora:
    git clone https://github.com/sacastrom/preEntrega1-react-js.git
 
-2. Instala las dependencias.
+2. Instala las dependencias:
    npm install
 
-3. Inicia la aplicación.
+3. Inicia la aplicación:
    npm start
 
 ## Uso
