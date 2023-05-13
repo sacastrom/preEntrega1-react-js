@@ -64,6 +64,11 @@ h3 {
   justify-content: center;
 }
 
+.botones-detail:hover{
+  color: white;
+  background-color: #00b0d3;
+}
+
 .botones-item-detail {
   display: flex;
   gap: 30px;

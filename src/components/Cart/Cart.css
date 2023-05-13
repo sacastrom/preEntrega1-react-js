@@ -13,6 +13,11 @@
   justify-content: center;
 }
 
+.botones-carrito:hover{
+  color: white;
+  background-color: #00b0d3;
+}
+
 .total-carrito {
   font-size: 25px;
 }
