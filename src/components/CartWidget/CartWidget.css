@@ -1,21 +1,20 @@
-.imgCarrito{
-    width: 30px;
-    height: 30px;
-
+.imgCarrito {
+  width: 30px;
+  height: 30px;
 }
 
-.carrito{
-    display: flex;
-    align-items: flex-end;
-    margin: 5px;
+.carrito {
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
 }
 
-strong{
-    color: black;
+strong {
+  color: black;
 }
 
-.cart-widget{
-    background-color: transparent;
-    border: solid 1px black;
-    border-radius: 5px;
+.cart-widget {
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: 5px;
 }

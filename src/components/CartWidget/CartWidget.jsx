@@ -5,10 +5,9 @@ import { CarritoContext } from "../../context/CarritoContext";
 import Cart from "../Cart/Cart";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Offcanvas } from "react-bootstrap";
 
-import { Offcanvas } from 'react-bootstrap';
-
-function CartWidget() {
+const CartWidget = () => {
   const { carrito } = useContext(CarritoContext);
   const [show, setShow] = useState(false);
 
@@ -53,6 +52,6 @@ function CartWidget() {
       </Offcanvas>
     </>
   );
-}
+};
 
 export default CartWidget;

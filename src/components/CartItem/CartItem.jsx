@@ -2,14 +2,14 @@ import React, { useContext } from "react";
 import "./CartItem.css";
 import { CarritoContext } from "../../context/CarritoContext";
 
-const CartItem = ({ item, cantidad, onActualizarCantidad }) => {
+const CartItem = ({ item, cantidad }) => {
   const { actualizarCantidadProducto } = useContext(CarritoContext);
   const { eliminarProducto } = useContext(CarritoContext);
 
   const aumentarCantidad = () => {
     if (cantidad < item.stock) {
       const nuevaCantidad = cantidad + 1;
-      //onActualizarCantidad(nuevaCantidad);
+
       actualizarCantidadProducto(item.id, nuevaCantidad);
     }
   };
@@ -17,7 +17,7 @@ const CartItem = ({ item, cantidad, onActualizarCantidad }) => {
   const disminuirCantidad = () => {
     if (cantidad > 1) {
       const nuevaCantidad = cantidad - 1;
-      //onActualizarCantidad(nuevaCantidad);
+
       actualizarCantidadProducto(item.id, nuevaCantidad);
     }
   };
@@ -37,9 +37,12 @@ const CartItem = ({ item, cantidad, onActualizarCantidad }) => {
       <div className="cart-card-detalles">
         <h3>{item.nombre}</h3>
         <div className="contador-cart">
-          <button className="boton-disminuir" onClick={disminuirCantidad}>-</button>
+          <button className="boton-disminuir" onClick={disminuirCantidad}>
+            -
+          </button>
           <p className="cantidad-cart">{cantidad}</p>
-          <button className="boton-aumentar"
+          <button
+            className="boton-aumentar"
             onClick={aumentarCantidad}
             disabled={cantidadDisponible === 0}
           >

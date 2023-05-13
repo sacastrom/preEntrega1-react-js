@@ -6,7 +6,7 @@ import "./Cart.css";
 import CartItem from "../CartItem/CartItem";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Cart() {
+const Cart = () => {
   const { carrito, vaciarCarrito } = useContext(CarritoContext);
 
   //Calculamos la cantidad total de productos en el carrito.
@@ -25,7 +25,11 @@ function Cart() {
     return (
       <>
         <h2 className="message-cart-empty">No hay productos en el carrito</h2>
-        {/* <Link to='/'> Sigue explorando</Link> */}
+        {
+          <Link className="botones-carrito" to="/">
+            Sigue Explorando
+          </Link>
+        }
       </>
     );
   }
@@ -40,15 +44,17 @@ function Cart() {
       <div className="bottom-carrito">
         <h3 className="total-carrito">Total: ${total}</h3>
         <Link className="botones-carrito" to="/checkout">
-          {" "}
           Finalizar Compra
         </Link>
         <Link className="botones-carrito" onClick={() => vaciarCarrito()}>
           Vaciar Carrito
         </Link>
+        <Link className="botones-carrito" to="/">
+          Sigue Explorando
+        </Link>
       </div>
     </div>
   );
-}
+};
 
 export default Cart;

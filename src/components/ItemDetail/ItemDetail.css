@@ -1,81 +1,70 @@
-.card-detail{
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+.card-detail {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.carrito{
-    width: 10px;
-    height: 10px;
+.carrito {
+  width: 10px;
+  height: 10px;
 }
 
-.card-detail img{
-    width: 40%;
-    border-radius: 5px;
+.card-detail img {
+  width: 40%;
+  border-radius: 5px;
 }
 
-.card-info-detail{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    
+.card-info-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-h2{
-    margin: 5px 0;
+h2 {
+  margin: 5px 0;
 }
 
-.stock-detail{
-    margin: 5px 0;
+.stock-detail {
+  margin: 5px 0;
 }
 
-.description-detail{
-    padding: 1px;
-    margin: 5px 0;
+.description-detail {
+  padding: 1px;
+  margin: 5px 0;
 }
 
-.price-detail{
-    margin: 5px 0;
+.price-detail {
+  margin: 5px 0;
 }
 
-h3{
-    margin: 2px 0;
-    font-size: 12px;
-    margin-top: 35px;
+h3 {
+  margin: 2px 0;
+  font-size: 12px;
+  margin-top: 35px;
 }
 
-.botones-detail{
-    background: #006aa6;
-    border: none;
-    padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 13px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
+.botones-detail {
+  background: #006aa6;
+  border: none;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 13px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-/* .botonTerminar:hover {
-    transition: .2s all cubic-bezier(.8,0,.17,1);
-    transform: scale(1.05);
-    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.3);
-    background-color: #00b0d3;
-  }
- */
-
- .botones-item-detail{
-    display: flex;
-    gap: 30px;
- }
+.botones-item-detail {
+  display: flex;
+  gap: 30px;
+}

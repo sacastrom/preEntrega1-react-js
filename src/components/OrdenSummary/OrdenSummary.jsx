@@ -49,7 +49,9 @@ const OrdenSummary = () => {
           </div>
         </div>
       </div>
-      <Link className="botones-detail" to="/">SEGUIR NAVEGANDO</Link>
+      <Link className="botones-detail" to="/">
+        SEGUIR NAVEGANDO
+      </Link>
     </>
   );
 };

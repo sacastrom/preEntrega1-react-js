@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import { CarritoContext } from "../../context/CarritoContext";
-import './CartSummary.css'
+import "./CartSummary.css";
 
 const CartSummary = () => {
   const { carrito } = useContext(CarritoContext);
@@ -20,7 +20,13 @@ const CartSummary = () => {
           </div>
         </div>
       ))}
-      <div className="total-resumen">TOTAL ${carrito.reduce((total, producto) => total + producto.item.precio * producto.cantidad, 0)}</div>
+      <div className="total-resumen">
+        TOTAL $
+        {carrito.reduce(
+          (total, producto) => total + producto.item.precio * producto.cantidad,
+          0
+        )}
+      </div>
     </>
   );
 };
