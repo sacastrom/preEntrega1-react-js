@@ -130,6 +130,7 @@ const Checkout = () => {
                 value={nombre}
                 onChange={(e) => setNombre(e.target.value)}
                 required
+                placeholder="Ingrese su nombre"
               />
             </div>
 
@@ -140,6 +141,7 @@ const Checkout = () => {
                 value={apellido}
                 onChange={(e) => setApellido(e.target.value)}
                 required
+                placeholder="Ingrese su apellido"
               />
             </div>
 
@@ -150,6 +152,7 @@ const Checkout = () => {
                 value={telefono}
                 onChange={(e) => setTelefono(e.target.value)}
                 required
+                placeholder="Ingrese su número de teléfono"
               />
             </div>
 
@@ -160,6 +163,7 @@ const Checkout = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                placeholder="ejemplo@ejemplo.com"
               />
             </div>
 
@@ -170,6 +174,7 @@ const Checkout = () => {
                 value={emailConfirmacion}
                 onChange={(e) => setEmailConfimacion(e.target.value)}
                 required
+                placeholder="ejemplo@ejemplo.com"
               />
             </div>
 
