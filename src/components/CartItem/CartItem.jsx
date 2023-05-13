@@ -29,7 +29,7 @@ const CartItem = ({ item, cantidad }) => {
   const cantidadDisponible = item.stock - cantidad;
 
   return (
-    <div className="card-carrito">
+    <div className="card-carrito" key={item.id}>
       <div>
         <img className="cart-image" src={item.img} alt="Nombre del producto" />
       </div>
